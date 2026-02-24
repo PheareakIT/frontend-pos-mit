@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    body{
+        @apply text-slate-800 font-kantumruy text-sm md:text-base;
+    }
+
+    .sidebar{
+        @apply flex space-x-2 items-center justify-start rounded-lg hover:bg-success/10 font-medium py-3 px-4 text-nowrap aria-[current=page]:bg-success/10 ;
+    }
+
+    .sub_sidebar{
+        @apply pl-5 flex items-center space-x-2 pt-3 pb-2 font-medium transition-all text-nowrap;
+    }
+}

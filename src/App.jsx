@@ -21,8 +21,8 @@ import ChasierLayout from "./layouts/ChasierLayout";
 import SaleReport from "./pages/report/SaleReport";
 import StockReport from "./pages/report/StockReport";
 import Unauthorize from "./pages/notfound/Unauthorize";
-import CreateUser from "./pages/user/createUser";
-import EditUser from "./pages/user/editUser";
+import CreateUser from "./pages/user/CreateUser";
+import EditUser from "./pages/user/EditUser"
 
 function App() {
   const { user, isLoading } = useUser();
